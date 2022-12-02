@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1> UNIVERSITY OF TUNGSTUN </h1>
+    <form>
+
+
+        <div class="div1">
+
+
+            <table align="center" cellpadding="10">
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <h2 style="color:rgb(99, 6, 248)"><ins>Registration Form </ins></h2>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>First Name *:</td>
+                    <td><input class="textbox" type="text" name="fname" placeholder="Enter First Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Last Name *:</td>
+                    <td><input class="textbox" type="text" name="lname" placeholder="Enter Last Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email *:</td>
+                    <td><input class="textbox" type="email" name="email" placeholder="Enter Email Address" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Mobile *:</td>
+                    <td><input class="textbox" type="text" name="lname" placeholder="Enter Mobile Number" maxlength="10"
+                            required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender *:</td>
+                    <td> <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>DOB *:</td>
+                    <td> <input class="textbox" type="date" name="date" value="DOB"></td>
+                </tr>
+
+                <tr>
+                    <td>Address *: </td>
+                    <td><textarea name="coments" cols="52" rows="10" placeholder="TYPE YOUR ADDRESS"></textarea></td>
+                </tr>
+
+                <tr>
+
+                    <td>City *:</td>
+                    <td> <input class="textbox" type="text" name="city" placeholder="Enter City Name" required></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Area Pin *:</td>
+                    <td><input class="textbox" type="number" name="pin" placeholder="Pin Code" maxlength="4" required>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>State *:</td>
+                    <td><input class="textbox" type="text" name="state" placeholder="Enter State Name" Required></td>
+
+                </tr>
+
+                <tr>
+                    <td>Qualification*:</td>
+                    <td><select class="textbox" name="school" value="school" required>
+                            <option> </option>
+                            <option> MSC From School of Science </option>
+                            <option> MBA From School of comerce</option>
+                            <option> SSC From School of IT</option>
+                            <option> M.tech From School of Science </option>
+                            <option> BCA From School of comerce</option>
+                            <option> MCA From School of IT</option>
+                        </select></td>
+                </tr>
+
+                <div class="checkbox">
+                    <tr>
+
+                        <td>Specialization*:</td>
+
+
+                        <td><input style="font-size:5px" type="checkbox" name="Singing" value="Singing">
+                            <label for="Singing"> Computer Science</label>
+                            <br>
+
+
+                            <input type="checkbox" name="Dancing" value="Dancing">
+                            <label for="Dancing"> Information Technology</label>
+                            <br>
+
+
+                            <input type="checkbox" name="other" value="other">
+                            <label for="other"> Computer Architecture</label>
+                            <br>
+
+                            <input type="checkbox" name="other" value="other">
+                            <label for="other"> Tele Communation</label>
+                        </td>
+                    </tr>
+
+                </div>
+
+
+
+                <tr>
+                    <td>Password *:</td>
+                    <td><input class="textbox" type="password" name="password" placeholder="Enter Password" required>
+                    </td>
+                </tr>
+
+        </div>
+
+        <tr id="btn">
+            <td></td>
+            <td><input class="divbutton" type="Submit" value="Submit">
+                <input class="divbutton" type="reset" value="Reset">
+            </td>
+            <td></td>
+
+        </tr>
+
+        </table>
+        <!-- <div class="btn">
+            <input class="divbutton" type="Submit" value="Submit">
+            <input class="divbutton" type="reset" value="Reset">
+        </div> -->
+
+
+    </form>
+</body>
+
+</html>
